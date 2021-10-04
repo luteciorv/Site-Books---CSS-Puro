@@ -1,0 +1,13 @@
+﻿.menu__link {
+    text-decoration: none;
+    font-size: 1.05rem;
+    color: #858585;
+    text-shadow: 0 0px 10px rgba(0, 0, 0, 0.15);
+    transition: all 0.05s ease-in-out;
+}
+
+    .menu__link:hover {
+        text-decoration: underline;
+        color: #c3c3c3;
+        cursor: pointer;
+    }

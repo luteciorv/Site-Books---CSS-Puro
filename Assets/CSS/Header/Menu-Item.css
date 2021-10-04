@@ -1,0 +1,38 @@
+﻿.menu__item{
+    text-transform: lowercase;
+    padding: 0.75rem;    
+}
+
+.menu__item--image {
+   background: url("../../Images/Menu.png") no-repeat center;
+   background-size: contain;
+   display: none;
+   width: 40px;
+   height: 40px;
+}
+
+.menu__item--active{
+   color: #000000;
+   font-weight: 800;
+}
+
+/*Responsividade*/
+@media screen and (min-width: 0px){
+    .menu__item {
+        display: none;
+    }
+
+    .menu__item--image {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .menu__item {
+        display: block;
+    }
+
+    .menu__item--image {
+        display: none;
+    }
+}

@@ -1,0 +1,25 @@
+﻿.banner__title {
+    color: aliceblue;
+    font-family: Pacifico, cursive;
+    font-size: 6rem;
+    left: 50%;
+    position: absolute;
+    text-align: center;
+    text-shadow: 1px 10px 15px rgba(0, 0, 0, 0.75);
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+/*Responsividade*/
+@media screen and (min-width: 0px) {
+    .banner__title{
+        font-size: 3rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .banner__title{
+        font-size: 6rem;
+    }
+}

@@ -1,0 +1,17 @@
+﻿.about__title {
+    color: #FF7878;
+    font-family: Pacifico, cursive;
+}
+
+/*Responsividade*/
+@media screen and (min-width: 0px) {
+    .about__title{
+        font-size: 3rem;    
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .about__title{
+        font-size: 3.5rem;
+    }
+}

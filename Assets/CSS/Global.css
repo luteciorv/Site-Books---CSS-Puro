@@ -1,0 +1,40 @@
+﻿/*Importar os arquivos CSS que resetam e normalizam as configurações*/
+@import "Reset.css";
+@import "Normalize.css";
+
+/*Header*/
+@import "Header/Header.css";
+@import "Header/Header-Logo.css";
+@import "Header/Menu-List.css";
+@import "Header/Menu-Item.css";
+@import "Header/Menu-Link.css";
+
+/*Banner*/
+@import "Banner/Banner.css";
+@import "Banner/Banner-Title.css";
+@import "Banner/Banner-Image.css";
+
+/*About*/
+@import "About/About.css";
+@import "About/About-Title.css";
+@import "About/About-Description.css";
+
+/*Books*/
+@import "Books/Books.css";
+@import "Books/Book.css";
+@import "Books/Book-Button.css";
+@import "Books/Book-Content.css";
+@import "Books/Book-Image.css";
+@import "Books/Book-Price.css";
+@import "Books/Book-Title.css";
+
+/*Me*/
+@import "Me/Me.css";
+@import "Me/Me-Name.css";
+@import "Me/Me-Image.css";
+@import "Me/Me-Description.css";
+
+/*Footer*/
+@import "Footer/Footer.css";
+@import "Footer/Footer-List.css";
+@import "Footer/Footer-Item.css";

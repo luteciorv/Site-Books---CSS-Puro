@@ -1,0 +1,19 @@
+﻿.books {
+    background-color: #E0C097;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*Responsividade*/
+@media screen and (min-width: 0px) {
+    .books{
+        justify-content: center;
+        padding: 5rem 0rem 0 1rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .books{
+        padding: 5rem 0 0 7rem;
+    }
+}

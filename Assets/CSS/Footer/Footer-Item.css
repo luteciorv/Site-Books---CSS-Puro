@@ -1,0 +1,33 @@
+﻿.footer__item {
+    text-transform: lowercase;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.footer__item--email{
+    display: none;    
+}
+
+/*Responsividade*/
+@media screen and (min-width: 0px) {
+    .footer__item--email{
+        display: block;
+    }
+
+    .footer__item{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .footer__item {
+        display: flex;
+        font-size: 1.05rem;
+        color: #858585;
+        text-shadow: 0 0px 10px rgba(0, 0, 0, 0.15);
+    }
+    
+    .footer__item--email{
+        display: none;
+    }
+}

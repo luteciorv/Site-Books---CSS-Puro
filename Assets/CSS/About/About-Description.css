@@ -1,0 +1,18 @@
+﻿.about__description {
+    color: #FF7878;
+    font-weight: 100;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+}
+
+/*Responsividade*/
+@media screen and (min-width: 0px) {
+    .about__description{
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .about__description{
+        font-size: 1.75rem;
+    }
+}
